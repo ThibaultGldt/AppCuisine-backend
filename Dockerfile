@@ -5,7 +5,7 @@ FROM openjdk:21-slim
 #WORKDIR /app
 
 # Copier le fichier jar de l'application
-COPY ../build/libs/AppCuisine-backend-0.0.1-SNAPSHOT.jar app.jar
+COPY build/libs/AppCuisine-backend-0.0.1-SNAPSHOT.jar app.jar
 
 # Exposer le port sur lequel l'application va tourner
 EXPOSE 8080

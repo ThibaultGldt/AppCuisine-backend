@@ -3,7 +3,7 @@ version: '3.8'
 services:
   api:
     build:
-      context: .
+      context: docker
       dockerfile: Dockerfile
     container_name: api
     ports:
@@ -19,8 +19,8 @@ services:
 
   webapp:
     build:
-      context: ../../AppCuisine-frontend/docker
-      dockerfile: ../../AppCuisine-frontend/docker/Dockerfile
+      context: ../AppCuisine-frontend/docker
+      dockerfile: Dockerfile
     container_name: webapp
     ports:
       - "80:80"
