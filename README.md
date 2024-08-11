@@ -23,3 +23,10 @@ Rechercher ingrédient dans api nutritionix
 bilan nutritionnel recette
 génération liste course en fonction des recettes souhaitées
 chercher une recette
+
+## Set Up
+### créer bdd
+```
+    CREATE DATABASE app_cuisine;
+    CREATE SCHEMA app_cuisine;
+```
