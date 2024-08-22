@@ -5,9 +5,12 @@ Application de création de recette et de suivi de sa nourriture
 ## TODO
  - [X] Ajout flyway
  - [X] sécurité et auth
+ - [ ] page inscription
+ - [ ] erreur identifiant / mdp
  - [ ] modélisation bdd
  - [ ] création tables bdd
  - [ ] Lien webapp <-> api nutritionix
+ - [ ] recherche ingrédient nutrionix
  - [ ] CI back
  - [ ] CI front
 
