@@ -8,5 +8,5 @@ public class LoginResponse {
 
     private long expiresIn;
 
-    public LoginResponse() {}
+    public LoginResponse() {}   //TODO modifier les path pour ajouter /api au début de chaque
 }

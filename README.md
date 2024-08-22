@@ -9,8 +9,9 @@ Application de création de recette et de suivi de sa nourriture
  - [ ] erreur identifiant / mdp
  - [ ] modélisation bdd
  - [ ] création tables bdd
- - [ ] Lien webapp <-> api nutritionix
+ - [ ] Lien webapp <-> api nutritionix / edamame
  - [ ] recherche ingrédient nutrionix
+ - [ ] auto complete
  - [ ] CI back
  - [ ] CI front
 
